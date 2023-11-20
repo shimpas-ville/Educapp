@@ -99,12 +99,13 @@
 		EB83B8552B0B904B003DC8A2 /* Educapp */ = {
 			isa = PBXGroup;
 			children = (
+				EB83B86E2B0B98E0003DC8A2 /* Evolution */,
+				EB83B8562B0B904B003DC8A2 /* EducappApp.swift */,
 				EB83B8582B0B904B003DC8A2 /* ContentView.swift */,
 				6C32A3AE2B0B98DF00A39CE1 /* Features */,
 				EB83B8682B0B90F5003DC8A2 /* TimerView-Intermediate.swift */,
 				EB83B86A2B0B9105003DC8A2 /* MainView.swift */,
 				EB83B85A2B0B904B003DC8A2 /* Item.swift */,
-				EB83B86C2B0B9119003DC8A2 /* EvolutionView.swift */,
 				EB83B85C2B0B9050003DC8A2 /* Assets.xcassets */,
 				EB83B85E2B0B9050003DC8A2 /* Preview Content */,
 			);
@@ -117,6 +118,14 @@
 				EB83B85F2B0B9050003DC8A2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB83B86E2B0B98E0003DC8A2 /* Evolution */ = {
+			isa = PBXGroup;
+			children = (
+				EB83B86C2B0B9119003DC8A2 /* EvolutionView.swift */,
+			);
+			path = Evolution;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
