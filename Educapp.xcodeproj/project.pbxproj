@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB83B8572B0B904B003DC8A2 /* EducappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83B8562B0B904B003DC8A2 /* EducappApp.swift */; };
 		EB83B8592B0B904B003DC8A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83B8582B0B904B003DC8A2 /* ContentView.swift */; };
 		EB83B85B2B0B904B003DC8A2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83B85A2B0B904B003DC8A2 /* Item.swift */; };
 		EB83B85D2B0B9050003DC8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB83B85C2B0B9050003DC8A2 /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 
 /* Begin PBXFileReference section */
 		EB83B8532B0B904B003DC8A2 /* Educapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Educapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB83B8562B0B904B003DC8A2 /* EducappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducappApp.swift; sourceTree = "<group>"; };
 		EB83B8582B0B904B003DC8A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB83B85A2B0B904B003DC8A2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		EB83B85C2B0B9050003DC8A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				EB83B8582B0B904B003DC8A2 /* ContentView.swift */,
-				EB83B8562B0B904B003DC8A2 /* EducappApp.swift */,
 				6C32A3AE2B0B98DF00A39CE1 /* Features */,
 				EB83B8682B0B90F5003DC8A2 /* TimerView-Intermediate.swift */,
 				EB83B86A2B0B9105003DC8A2 /* MainView.swift */,
@@ -197,7 +194,6 @@
 				EB83B86B2B0B9105003DC8A2 /* MainView.swift in Sources */,
 				EB83B85B2B0B904B003DC8A2 /* Item.swift in Sources */,
 				EB83B8692B0B90F5003DC8A2 /* TimerView-Intermediate.swift in Sources */,
-				EB83B8572B0B904B003DC8A2 /* EducappApp.swift in Sources */,
 				EB83B8672B0B90E5003DC8A2 /* TimerView-Final.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
