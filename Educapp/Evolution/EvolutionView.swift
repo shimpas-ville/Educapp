@@ -19,17 +19,28 @@ struct Day: Identifiable {
 
 
 let data: [Day] = [
-    .init(day: "13", hours: 2, color: .blue),
-    .init(day: "13", hours: 1, color: .red),
-    .init(day: "14", hours: 3, color: .red),
-    .init(day: "15", hours: 2, color: .orange),
-    .init(day: "16", hours: 5, color: .green),
-    .init(day: "16", hours: 3, color: .blue),
-    .init(day: "17", hours: 3, color: .blue),
-    .init(day: "18", hours: 4, color: .purple),
-    .init(day: "19", hours: 2, color: .blue),
-    .init(day: "20", hours: 3, color: .green),
-    .init(day: "21", hours: 6, color: .blue),
+    .init(day: "13", hours: 2, color: Color("Green")),
+    .init(day: "13", hours: 1, color: Color("Red")),
+    .init(day: "14", hours: 3, color: Color("Green")),
+    .init(day: "15", hours: 2, color: Color("Red")),
+    .init(day: "16", hours: 5, color: Color("Orange")),
+    .init(day: "16", hours: 3, color: Color("Yellow")),
+    .init(day: "17", hours: 3, color: Color("Orange")),
+    .init(day: "18", hours: 4, color: Color("Yellow")),
+    .init(day: "19", hours: 2, color: Color("Purple")),
+    .init(day: "20", hours: 3, color: Color("Green")),
+    .init(day: "21", hours: 6, color: Color("Blue")),
+    .init(day: "22", hours: 2, color: Color("Green")),
+    .init(day: "23", hours: 1, color: Color("Red")),
+    .init(day: "24", hours: 3, color: Color("Green")),
+    .init(day: "25", hours: 2, color: Color("Red")),
+    .init(day: "26", hours: 5, color: Color("Orange")),
+    .init(day: "27", hours: 3, color: Color("Yellow")),
+    .init(day: "28", hours: 3, color: Color("Orange")),
+    .init(day: "29", hours: 4, color: Color("Yellow")),
+    .init(day: "30", hours: 2, color: Color("Purple")),
+    .init(day: "30", hours: 3, color: Color("Green")),
+    .init(day: "31", hours: 6, color: Color("Blue")),
 ]
 
 struct EvolutionView: View {
@@ -45,6 +56,8 @@ struct EvolutionView: View {
                     .foregroundStyle(shape.color)
                 }
             }
+            .frame(width: 300, height: 200)
+            .background()
         }
     }
 }
