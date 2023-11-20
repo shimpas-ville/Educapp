@@ -42,6 +42,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C32A3AD2B0B98AD00A39CE1 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				6C32A3B12B0B995C00A39CE1 /* ViewModel */,
+				6C32A3B02B0B993E00A39CE1 /* View */,
+				6C32A3AF2B0B98EC00A39CE1 /* Model */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		6C32A3AE2B0B98DF00A39CE1 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				6C32A3AD2B0B98AD00A39CE1 /* Timer */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		6C32A3AF2B0B98EC00A39CE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6C32A3B02B0B993E00A39CE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB83B8662B0B90E5003DC8A2 /* TimerView-Final.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6C32A3B12B0B995C00A39CE1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		EB83B84A2B0B904B003DC8A2 = {
 			isa = PBXGroup;
 			children = (
@@ -61,9 +101,9 @@
 		EB83B8552B0B904B003DC8A2 /* Educapp */ = {
 			isa = PBXGroup;
 			children = (
-				EB83B8562B0B904B003DC8A2 /* EducappApp.swift */,
 				EB83B8582B0B904B003DC8A2 /* ContentView.swift */,
-				EB83B8662B0B90E5003DC8A2 /* TimerView-Final.swift */,
+				EB83B8562B0B904B003DC8A2 /* EducappApp.swift */,
+				6C32A3AE2B0B98DF00A39CE1 /* Features */,
 				EB83B8682B0B90F5003DC8A2 /* TimerView-Intermediate.swift */,
 				EB83B86A2B0B9105003DC8A2 /* MainView.swift */,
 				EB83B85A2B0B904B003DC8A2 /* Item.swift */,
