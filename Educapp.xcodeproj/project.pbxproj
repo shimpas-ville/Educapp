@@ -7,28 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB83B8572B0B904B003DC8A2 /* EducappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83B8562B0B904B003DC8A2 /* EducappApp.swift */; };
 		EB83B8592B0B904B003DC8A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83B8582B0B904B003DC8A2 /* ContentView.swift */; };
-		EB83B85B2B0B904B003DC8A2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83B85A2B0B904B003DC8A2 /* Item.swift */; };
 		EB83B85D2B0B9050003DC8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB83B85C2B0B9050003DC8A2 /* Assets.xcassets */; };
 		EB83B8602B0B9050003DC8A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB83B85F2B0B9050003DC8A2 /* Preview Assets.xcassets */; };
 		EB83B8672B0B90E5003DC8A2 /* TimerView-Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83B8662B0B90E5003DC8A2 /* TimerView-Final.swift */; };
 		EB83B8692B0B90F5003DC8A2 /* TimerView-Intermediate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83B8682B0B90F5003DC8A2 /* TimerView-Intermediate.swift */; };
-		EB83B86B2B0B9105003DC8A2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83B86A2B0B9105003DC8A2 /* MainView.swift */; };
 		EB83B86D2B0B9119003DC8A2 /* EvolutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83B86C2B0B9119003DC8A2 /* EvolutionView.swift */; };
+		EB83B8702B0CD796003DC8A2 /* EducappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83B86F2B0CD796003DC8A2 /* EducappApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB83B8532B0B904B003DC8A2 /* Educapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Educapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB83B8562B0B904B003DC8A2 /* EducappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducappApp.swift; sourceTree = "<group>"; };
 		EB83B8582B0B904B003DC8A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EB83B85A2B0B904B003DC8A2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		EB83B85C2B0B9050003DC8A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB83B85F2B0B9050003DC8A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB83B8662B0B90E5003DC8A2 /* TimerView-Final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimerView-Final.swift"; sourceTree = "<group>"; };
 		EB83B8682B0B90F5003DC8A2 /* TimerView-Intermediate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimerView-Intermediate.swift"; sourceTree = "<group>"; };
-		EB83B86A2B0B9105003DC8A2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		EB83B86C2B0B9119003DC8A2 /* EvolutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvolutionView.swift; sourceTree = "<group>"; };
+		EB83B86F2B0CD796003DC8A2 /* EducappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducappApp.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,9 +41,8 @@
 		6C32A3AD2B0B98AD00A39CE1 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
-				6C32A3B12B0B995C00A39CE1 /* ViewModel */,
-				6C32A3B02B0B993E00A39CE1 /* View */,
-				6C32A3AF2B0B98EC00A39CE1 /* Model */,
+				EB83B8682B0B90F5003DC8A2 /* TimerView-Intermediate.swift */,
+				EB83B8662B0B90E5003DC8A2 /* TimerView-Final.swift */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -55,31 +50,10 @@
 		6C32A3AE2B0B98DF00A39CE1 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				EB83B86E2B0B98E0003DC8A2 /* Evolution */,
 				6C32A3AD2B0B98AD00A39CE1 /* Timer */,
 			);
 			path = Features;
-			sourceTree = "<group>";
-		};
-		6C32A3AF2B0B98EC00A39CE1 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		6C32A3B02B0B993E00A39CE1 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				EB83B8662B0B90E5003DC8A2 /* TimerView-Final.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		6C32A3B12B0B995C00A39CE1 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		EB83B84A2B0B904B003DC8A2 = {
@@ -101,13 +75,9 @@
 		EB83B8552B0B904B003DC8A2 /* Educapp */ = {
 			isa = PBXGroup;
 			children = (
+				EB83B86F2B0CD796003DC8A2 /* EducappApp.swift */,
 				EB83B8582B0B904B003DC8A2 /* ContentView.swift */,
-				EB83B8562B0B904B003DC8A2 /* EducappApp.swift */,
 				6C32A3AE2B0B98DF00A39CE1 /* Features */,
-				EB83B8682B0B90F5003DC8A2 /* TimerView-Intermediate.swift */,
-				EB83B86A2B0B9105003DC8A2 /* MainView.swift */,
-				EB83B85A2B0B904B003DC8A2 /* Item.swift */,
-				EB83B86C2B0B9119003DC8A2 /* EvolutionView.swift */,
 				EB83B85C2B0B9050003DC8A2 /* Assets.xcassets */,
 				EB83B85E2B0B9050003DC8A2 /* Preview Content */,
 			);
@@ -120,6 +90,14 @@
 				EB83B85F2B0B9050003DC8A2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB83B86E2B0B98E0003DC8A2 /* Evolution */ = {
+			isa = PBXGroup;
+			children = (
+				EB83B86C2B0B9119003DC8A2 /* EvolutionView.swift */,
+			);
+			path = Evolution;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,10 +172,8 @@
 			files = (
 				EB83B86D2B0B9119003DC8A2 /* EvolutionView.swift in Sources */,
 				EB83B8592B0B904B003DC8A2 /* ContentView.swift in Sources */,
-				EB83B86B2B0B9105003DC8A2 /* MainView.swift in Sources */,
-				EB83B85B2B0B904B003DC8A2 /* Item.swift in Sources */,
+				EB83B8702B0CD796003DC8A2 /* EducappApp.swift in Sources */,
 				EB83B8692B0B90F5003DC8A2 /* TimerView-Intermediate.swift in Sources */,
-				EB83B8572B0B904B003DC8A2 /* EducappApp.swift in Sources */,
 				EB83B8672B0B90E5003DC8A2 /* TimerView-Final.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
