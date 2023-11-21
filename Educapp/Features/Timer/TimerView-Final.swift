@@ -17,8 +17,17 @@ struct TimerView: View {
     var body: some View {
         ZStack{
             Circle()
-                .fill(.green)
+                .fill(
+                    EllipticalGradient(
+                      stops: [
+                        Gradient.Stop(color: .black, location: 0.70),
+                        Gradient.Stop(color: Color(red: 0, green: 1, blue: 0), location: 1.00),
+                      ],
+                      center: UnitPoint(x: 0.5, y: 0.5)
+                    )
+                  )
                 .frame(width: 350, height: 350)
+            
             Circle()
                 .fill(.black)
                 .frame(width: 300, height: 300)

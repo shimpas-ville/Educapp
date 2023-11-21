@@ -45,8 +45,21 @@ let data: [Day] = [
 
 struct EvolutionView: View {
     var body: some View {
-        VStack {
-            Image("")
+        
+        VStack (alignment: .center, spacing: 58) {
+            Rectangle()
+              .foregroundColor(.clear)
+              .frame(width: 310, height: 310)
+              .background(
+                EllipticalGradient(
+                  stops: [
+                    Gradient.Stop(color: .black, location: 0.70),
+                    Gradient.Stop(color: Color(red: 1, green: 0, blue: 0), location: 1.00),
+                  ],
+                  center: UnitPoint(x: 0.5, y: 0.5)
+                )
+              )
+              .cornerRadius(310)
             Chart{
                 ForEach(data) { shape in
                     BarMark(
@@ -54,11 +67,20 @@ struct EvolutionView: View {
                         y: .value("Value", shape.hours)
                     )
                     .foregroundStyle(shape.color)
+                    
                 }
             }
+            .chartForegroundStyleScale([
+                "Math": Color("Orange"), "History": Color("Blue"), "Science": Color("Green"), "Geography": Color("Yellow")
+            ])
             .frame(width: 300, height: 200)
-            .background()
+            .background(.black)
         }
+        .padding(.horizontal, 100)
+        .padding(.top, 0)
+        .padding(.bottom, 422)
+        .background(.black)
+        .cornerRadius(16)
     }
 }
 
